@@ -1,0 +1,7 @@
+version: '3'
+services:
+  chmlib:
+    image: langboost/chm-lib
+    build: .
+    volumes:
+      - ./chms:/home/chms
